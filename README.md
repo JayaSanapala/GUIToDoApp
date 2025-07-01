@@ -20,10 +20,18 @@ A Java GUI application to add and delete tasks in a To-Do list.
 - Simple, user-friendly GUI using JFrame, JButton, and JTextField.
 
 ---
-
 ## How to Run
 
 1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/JayaSanapala/GUIToDoApp.git
+
+## Navigate into the project folder:
+cd GUIToDoApp
+
+## Compile the Java code (from command line):
+javac -d bin src/GUI/ToDoApp.java
+
+## Run the application:
+java -cp bin GUI.ToDoApp
